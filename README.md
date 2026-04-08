@@ -4,7 +4,7 @@ A keyboard layout combining Finnish and UK (PC) keyboards.
 
 ## Why?
 
-The Finnish keyboard sucks for programming but I need the umlauts. I liked using @ruohola's excellently thought-out [Finner](https://github.com/ruohola/finner) layout but generally like the UK layout more than the US one. And so, here we are.
+The Finnish keyboard sucks for programming but I need the umlauts. I liked using @[ruohola](https://github.com/ruohola)'s excellently thought-out [Finner](https://github.com/ruohola/finner) layout but generally like the UK layout more than the US one. And so, here we are.
 
 ## Usage
 
@@ -39,4 +39,4 @@ input {
 
 ### Other systems
 
-The layout is generated using @OneDeadKey's [Kalamine](https://github.com/OneDeadKey/kalamine/) which has [instructions on installing layouts on different systems](https://github.com/OneDeadKey/kalamine/?tab=readme-ov-file#using-distributable-layouts). Download the Finnest layout files for your system from the [releases page](https://github.com/emsknock/finnest/releases/latest).
+The layout is generated using @[OneDeadKey](https://github.com/OneDeadKey)'s [Kalamine](https://github.com/OneDeadKey/kalamine/) which is an abandoned project, so expect the generated layouts to be all kinds of broken. But if you want to give it a shot, Kalamine has [instructions on installing layouts on different systems](https://github.com/OneDeadKey/kalamine/?tab=readme-ov-file#using-distributable-layouts). You can download the Finnest layout files for your system from the [releases page](https://github.com/emsknock/finnest/releases/latest).
