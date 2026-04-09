@@ -6,6 +6,29 @@ A keyboard layout combining Finnish and UK (PC) keyboards.
 
 The Finnish keyboard sucks for programming but I need the umlauts. I liked using [@ruohola](https://github.com/ruohola)'s excellently thought-out [Finner](https://github.com/ruohola/finner) layout but generally like the UK layout more than the US one. And so, here we are.
 
+## The layout
+
+```
+┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━━┓
+│ @ ´ │ !   │ "   │ ^   │ $ £ │ %   │ &   │ *   │ (   │ )   │ = ≈ │ ?   │ \   ┃          ┃
+│ ' ` │ 1   │ 2   │ 3   │ 4 € │ 5   │ 6 § │ 7   │ 8   │ 9   │ 0 ° │ +   │ / | ┃ ⌫        ┃
+┢━━━━━┷━━┱──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┺━━┳━━━━━━━┫
+┃        ┃ Q   │ W   │ E   │ R   │ T   │ Y   │ U ⇔ │ I ⇕ │ O   │ P   │ {   │ }*^ ┃       ┃
+┃ ↹      ┃     │     │     │   ® │   ™ │     │   ↔ │   ↕ │     │     │ [ å │ ]*¨ ┃       ┃
+┣━━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓  ⏎   ┃
+┃         ┃ A   │ S   │ D   │ F   │ G   │ H ⇐ │ J ⇓ │ K ⇑ │ L ⇒ │ Ö   │ Ä   │ ~*~ ┃      ┃
+┃ ⇬       ┃     │     │     │     │     │   ← │   ↓ │   ↑ │   → │   ø │   æ │ #   ┃      ┃
+┣━━━━━━┳━━┹──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┲━━┷━━━━━┻━━━━━━┫
+┃      ┃ > ≥ │ Z   │ X   │ C   │ V   │ B   │ N   │ M   │ ;   │ : ⋅ │ _ — ┃               ┃
+┃ ⇧    ┃ < ≤ │     │     │   © │     │     │     │     │ ,   │ . … │ - – ┃ ⇧             ┃
+┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴─┲━━━┷━━━┳━┷━━━━━╋━━━━━━━┳━━━━━━━┫
+┃       ┃       ┃       ┃                                ┃       ┃       ┃       ┃       ┃
+┃ Ctrl  ┃ super ┃ Alt   ┃ ␣                              ┃ AltGr ┃ super ┃ menu  ┃ Ctrl  ┃
+┗━━━━━━━┻━━━━━━━┻━━━━━━━┹────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┻━━━━━━━┛
+```
+
+Where e.g. `*~` means a dead key for tilde (to allow writing ñ, for example).
+
 ## Usage
 
 ### NixOS
