@@ -1,4 +1,5 @@
 {
+	lib,
 	stdenv,
 	writeText,
 	kalamine,
@@ -40,8 +41,7 @@
 		then gtLo
 		else atLo;
 
-	toml =
-		writeText "layout.toml"
+	src =
 		# toml
 		''
 			author = "emsknock"
@@ -75,6 +75,12 @@
 			┗━━━━━━━┻━━━━━━━┻━━━━━━━┹────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┻━━━━━━━┛
 			${"'''"}
 		'';
+	toml =
+		src
+		|> lib.strings.splitString "\n"
+		|> map lib.strings.trim
+		|> lib.strings.join "\n"
+		|> writeText "layout.toml";
 in
 	stdenv.mkDerivation {
 		name = "finnest";
